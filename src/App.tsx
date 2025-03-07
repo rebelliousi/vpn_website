@@ -1,5 +1,6 @@
 import Advertise from "./components/Advertise"
 import Hero from "./components/Hero"
+import Install from "./components/Install"
 import Navbar from "./components/Navbar"
 
 const App:React.FC=()=>{
@@ -8,6 +9,7 @@ const App:React.FC=()=>{
       <Navbar/>
       <Hero/>
       <Advertise/>
+      <Install/>
 
     </div>
   )
