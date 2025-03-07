@@ -1,3 +1,4 @@
+import Advertise from "./components/Advertise"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 
@@ -6,6 +7,7 @@ const App:React.FC=()=>{
     <div>
       <Navbar/>
       <Hero/>
+      <Advertise/>
 
     </div>
   )

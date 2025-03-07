@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         <img className="absolute w-[270px] h-[260px]" src={image} alt="" />
 
         <img
-          className="absolute w-[200px] right-[1px] top-[150px] transition transform hover:translate-y-[-30px] z-1"
+          className="absolute w-[200px] right-[1px] top-[150px] z-1"
           src={image2}
           alt=""
         />
