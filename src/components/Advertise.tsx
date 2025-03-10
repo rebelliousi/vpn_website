@@ -32,9 +32,7 @@ const Advertise: React.FC = () => {
             {item.description}
           </p>
 
-
-          
-        </div>
+</div>
       ))}
     </div>
   );

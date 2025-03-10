@@ -1,57 +1,72 @@
-import image from "../assets/img/image 2.png";
-import image2 from "../assets/img/image 5.png";
-import image3 from "../assets/img/image 7.png";
-const Advertise: React.FC = () => {
+import image from "../assets/img/Mask group.png";
+import image2 from "../assets/img/Mask group (1).png";
+import icon from "../assets/img/Vector.png";
+import advert from "../assets/img/Logonetflix.png";
+import advert2 from "../assets/img/BBC-Logo-1.png";
+import advert3 from "../assets/img/Nike-Logo.png";
+const Hero: React.FC = () => {
   return (
-    <div className="p-5 container mx-auto font-roboto flex flex-col items-center justify-center">
-      <div className="relative p-4 flex flex-col items-start justify-center">
-        <img className="rounded-lg relative z-10" src={image} alt="" />
-        <div className="absolute inset-0 bg-[#E7D9D033]  w-[400px] top-[30px] left-5 h-[360px] rounded-lg z-0"></div>
-        <h1 className="text-left text-[26px] text-[#00204E] font-[500] mt-10 leading-tight">
-          Protect your online footprint with Shield VPN
+    <div className="p-5 container mx-auto flex flex-col item-center justify-center font-roboto">
+      <div className="p-2 sm:w-[530px] sm:h-[207px]">
+        <h1 className="font-roboto  text-center text-[40px] leading-tight text-[#00204E] font-[700]">
+          Browse the web anonymously, safe and secure{" "}
         </h1>
-        <p className="text-left text-[#383838] text-[16px] mt-5">
-          Every account created, email sent, image posted, or website visited
-          adds to a person's online footprint. Why let anyone know where you are
-          surfing the web from? Connect to any of the locations on Shield VPN
-          and keep your IP hidden from people and cyber attackers snooping
-          around and monitoring your activities online.
+      </div>
+      <div className="p-2 sm:w-[220px] sm:h-[58px]">
+        <p className=" text-center text-[21px] text-[#383838] leading-tight">
+          Protect your online <br /> footprint with Shield vpn
         </p>
       </div>
+      <div className=" mt-4 flex items-center justify-center">
+        <button className=" text-[18px] text-white bg-[#0166F6] rounded-full px-8 py-3">
+          Get shield vpn{" "}
+        </button>
+      </div>
 
-      <div className="relative p-4 flex flex-col items-start justify-center mt-5">
+      <div className="p-5 relative mt-20 ">
+        <div className="absolute  bg-[#011B411A] rounded-lg  w-[120px] h-[120px] right-[-4px] top-[130px]"></div>
+        <img className="absolute w-[270px] h-[260px]" src={image} alt="" />
+
         <img
-          className="rounded-lg relative z-10 left-5 bottom-5"
-          src={image3}
+          className="absolute w-[200px] right-[1px] top-[150px] z-1"
+          src={images.mainIma}
           alt=""
         />
-        <div className="absolute inset-0 bg-[#0133661A] w-[400px] top-[30px] right-5 h-[360px] rounded-lg z-0"></div>
-        <h1 className="text-left text-[26px] text-[#00204E] font-[500] mt-10 leading-tight">
-          Stream content from anywhere in the world
-        </h1>
-        <p className="text-left text-[#383838] text-[16px] mt-5">
-          Your favorite videos, movies, TV shows, or other media content that’s
-          available on streaming platforms like Netflix, HBO Max, even Amazon
-          Prime might vary from region to region. Who says you can't get access
-          to those contents? With Shield VPN, you have can stream your favorite
-          media content from anywhere in the world with no buffering.
-        </p>
+      </div>
+      <div className=" p-6 w-[400px] flex flex-col items-start justify-center space-y-6 mt-[350px] ">
+        <div className="flex items-center justify-center space-x-2">
+          <img className="w-7" src={icon} alt="" />
+          <p className="text-[#00204E] text-[18px] font-[400]">
+            Safeguard your browsing experience
+          </p>
+        </div>
+        <div className="flex items-center justify-center space-x-2">
+          <img className="w-7" src={icon} alt="" />
+          <p className="text-[#00204E] text-[18px] font-[400]">
+            {" "}
+            Stay safe with 100% digital anonymity
+          </p>
+        </div>
+        <div className="flex items-center justify-center space-x-2">
+          <img className="w-7" src={icon} alt="" />
+          <p className="text-[#00204E] text-[18px] font-[400]">
+            {" "}
+            Protect up to 7 devices simultaneously
+          </p>
+        </div>
       </div>
 
-      <div className="relative p-4 flex flex-col items-start justify-center">
-        <img className="rounded-lg relative z-10" src={image2} alt="" />
-        <div className="absolute inset-0 bg-[#97979726]  w-[400px] top-[30px] left-5 h-[360px] rounded-lg z-0"></div>
-        <h1 className="text-left text-[28px] text-[#00204E] font-[500] mt-10 leading-tight">
-          Enjoy high-speed and reliable internet connections
+      <div className="flex flex-col items-center justify-center mt-5">
+        <h1 className="font-[700] text-[20px] text-[#00204E] pt-5">
+          Trusted & Recommended by:{" "}
         </h1>
-        <p className="text-left text-[#383838] text-[16px] mt-5">
-          No more buffering on your favorite TV shows or music streaming
-          platforms. You can now browse the internet with the speed of light
-          when you use Shield VPN today and not miss the best moments on your
-          streaming platforms. Cool right?
-        </p>
+        <div className="flex items-center justify-center space-x-4 mt-5">
+          <img  className="w-28" src={advert} alt="" />
+          <img   className="w-28"src={advert2} alt="" />
+          <img  className="w-28" src={advert3} alt="" />
+        </div>
       </div>
     </div>
   );
 };
-export default Advertise;
+export default Hero;

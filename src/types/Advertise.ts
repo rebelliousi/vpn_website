@@ -18,7 +18,7 @@ export interface AdvertiseItem {
       title: "Protect your online footprint with Shield VPN",
       description:
         "Every account created, email sent, image posted, or website visited adds to a person's online footprint. Why let anyone know where you are surfing the web from? Connect to any of the locations on Shield VPN and keep your IP hidden from people and cyber attackers snooping around and monitoring your activities online.",
-      imagePosition: 'left',
+      imagePosition: 'right',
     },
     {
       image: image2,
@@ -26,7 +26,7 @@ export interface AdvertiseItem {
       title: "Stream content from anywhere in the world",
       description:
         "Your favorite videos, movies, TV shows, or other media content that’s available on streaming platforms like Netflix, HBO Max, even Amazon Prime might vary from region to region. Who says you can't get access to those contents? With Shield VPN, you have can stream your favorite media content from anywhere in the world with no buffering.",
-      imagePosition: 'right',
+      imagePosition: 'left',
     },
     {
       image: image3,
@@ -34,7 +34,7 @@ export interface AdvertiseItem {
       title: "Enjoy high-speed and reliable internet connections",
       description:
         "No more buffering on your favorite TV shows or music streaming platforms. You can now browse the internet with the speed of light when you use Shield VPN today and not miss the best moments on your streaming platforms. Cool right?",
-      imagePosition: 'left',
+      imagePosition: 'right',
     },
   ];
   
