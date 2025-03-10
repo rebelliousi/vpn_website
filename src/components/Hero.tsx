@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         ></p>
       </div>
       <div className=" mt-4 flex items-center justify-center">
-        <button className=" text-[18px] text-white bg-[#0166F6] rounded-full px-8 py-3">
+        <button className=" text-[18px] text-white bg-[#0166F6] rounded-full px-14 py-3">
           Get shield vpn
         </button>
       </div>

@@ -8,7 +8,7 @@ const Navbar:React.FC=()=>{
             </div>
 
             <div>
-                <button className="bg-[#0166F6] font-[300] rounded-full px-4 py-2 text-white text-[15px]">Download</button>
+                <button className="bg-[#0166F6] font-[300] rounded-full px-6 py-1 text-white text-[15px]">Download</button>
             </div>
 
         </div>
