@@ -1,5 +1,6 @@
 import Advertise from "./components/Advertise"
 import Comments from "./components/Comments"
+import Discount from "./components/Discount"
 import Hero from "./components/Hero"
 import Install from "./components/Install"
 import Navbar from "./components/Navbar"
@@ -14,6 +15,7 @@ const App:React.FC=()=>{
       <Install/>
       <Comments/>
       <Opportunity/> 
+      <Discount/>
 
     </div>
   )

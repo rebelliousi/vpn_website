@@ -3,7 +3,10 @@ import { features, heroText, images, trustedByCompanies } from "../types/Hero";
 const Hero: React.FC = () => {
   return (
     <div className="p-5 container mx-auto flex flex-col item-center justify-center font-roboto">
-      <div className="p-2 sm:w-[530px] sm:h-[207px]">
+      <div>
+        
+      </div>
+      <div className="p-2 sm:w-[530px] sm:h-[207px] l">
         <h1 className="font-roboto  text-center text-[40px] leading-tight text-[#00204E] font-[700]">
           <div dangerouslySetInnerHTML={{ __html: heroText.title }} />
         </h1>
