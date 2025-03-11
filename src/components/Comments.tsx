@@ -25,7 +25,7 @@ const Comments:React.FC=()=>{
                     {item.comment}
                  </p>
                 
-                 <h1 className="mt-[40px] text-[12px] font-[500]  ">- <span className="p-1">{item.fullName}</span> </h1>
+                 <h1 className="mt-[25px] text-[12px] font-[500]  ">- <span className="p-1">{item.fullName}</span> </h1>
                
                 
 
