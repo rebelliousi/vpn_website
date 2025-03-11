@@ -3,6 +3,7 @@ import Comments from "./components/Comments"
 import Hero from "./components/Hero"
 import Install from "./components/Install"
 import Navbar from "./components/Navbar"
+import Opportunity from "./components/Opportunity"
 
 const App:React.FC=()=>{
   return(
@@ -12,6 +13,7 @@ const App:React.FC=()=>{
       <Advertise/>
       <Install/>
       <Comments/>
+      <Opportunity/> 
 
     </div>
   )
